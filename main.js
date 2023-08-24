@@ -35,7 +35,7 @@ const members = [
 ]
 for(let i = 0; i < members.length; i++){
     console.log(members[i]);
-    contenitore.innerHTML += `<div class="card m-4" style="width: 18rem;">
+    contenitore.innerHTML += `<div class="card m-4 card-w" style="width: 18rem;">
     <img src="./img./${members[i].foto}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${members[i].nome}</h5>
